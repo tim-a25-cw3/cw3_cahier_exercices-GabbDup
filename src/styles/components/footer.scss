@@ -1,0 +1,35 @@
+.footer {
+    text-align: center;
+    color: var(--color-grey);
+
+    p {
+        font-weight: 300;
+        font-size: var(--font-size-content);
+    }
+
+    .boldText {
+        font-weight: 600;
+        color: var(--color-white);
+    }
+
+    .media-sociaux {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: var(--spacing-sm);
+
+        .icon--md {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    a {
+        color: var(--color-grey);
+
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+}

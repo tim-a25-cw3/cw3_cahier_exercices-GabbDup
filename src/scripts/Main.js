@@ -11,6 +11,7 @@ class Main {
     const swiper = new Swiper(target, {
       speed: 400,
       loop: true,
+      slidesPerView: 1,
       pagination: {
         el: '.swiper-pagination',
       },

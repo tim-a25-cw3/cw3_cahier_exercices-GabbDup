@@ -1,0 +1,16 @@
+.button {
+    background-color: var(--color-primary);
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 75px;
+    color: var(--color-black);
+    &:hover {
+        background-color: var(--color-white);
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+}
+
+.laboReactif .button {
+    background-color: var(--color-white);
+}

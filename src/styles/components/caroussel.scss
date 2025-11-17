@@ -1,0 +1,29 @@
+.laboReactif {
+    background-color: var(--color-primary);
+
+    h2,
+    h3,
+    p {
+        color: var(--color-black);
+    }
+
+    .card {
+        &:nth-child(even) {
+            .card__content {
+                order: unset;
+            }
+        }
+    }
+}
+
+.swiper-pagination-bullet {
+    transform: rotate(45deg);
+}
+
+.swiper-pagination {
+    position: static;
+    --swiper-pagination-color: var(--color-white);
+    --swiper-pagination-bullet-size: 20px;
+    --swiper-pagination-bullet-border-radius: 0;
+    --swiper-pagination-bullet-horizontal-gap: 20px;
+}
